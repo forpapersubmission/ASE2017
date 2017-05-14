@@ -1,3 +1,7 @@
 # Identifying Patch Correctness in Test-Based Automatic Program Repair
 
-To be uploaded within a week.
+The patches to be identified are in `patches/`.
+
+Source code of our implementation is in `source/`.
+
+The raw experiment results are in `results/`
