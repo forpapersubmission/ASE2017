@@ -3,7 +3,7 @@
 All of the patches in our dataset are in unified diff format.
 
 | Patch ID | Project | Bug ID | Tool | Correctness |
-| :---- | :---- | :---- | :---- | :---- | 
+| :---- | :---- | :---- | :---- | :---- |
 | 1 | Chart | 1 | jGenprog | Incorrect |
 | 2 | Chart | 1 | jKali | Incorrect |
 | 3 | Chart | 3 | jGenprog | Unknown |
@@ -44,9 +44,9 @@ All of the patches in our dataset are in unified diff format.
 | 38 | Math | 40 | jKali | Incorrect |
 | 39 | Math | 40 | Nopol2015 | Unknown |
 | 40 | Math | 42 | Nopol2015 | Unknown |
-| 41 |  |  | jGenprog | Incorrect |
-| 42 |  |  | jKali | Incorrect |
-| 43 |  |  | Nopol2015 | Incorrect |
+| 41 | Math | 49 | jGenprog | Incorrect |
+| 42 | Math | 49 | jKali | Incorrect |
+| 43 | Math | 49 | Nopol2015 | Incorrect |
 | 44 | Math | 50 | jGenprog | Correct |
 | 45 | Math | 50 | jKali | Correct |
 | 46 | Math | 50 | Nopol2015 | Correct |
@@ -97,62 +97,62 @@ All of the patches in our dataset are in unified diff format.
 | 91 | Chart | 21 | Nopol2017 | Incorrect |
 | 92 | Chart | 25 | Nopol2017 | Incorrect |
 | 93 | Chart | 26 | Nopol2017 | Incorrect |
-| 94 |  |  |  | Incorrect |
-| 95 |  |  |  | Incorrect |
-| 96 |  |  |  | Incorrect |
-| 97 |  |  |  | Incorrect |
-| 98 |  |  |  | Incorrect |
-| 99 |  |  |  | Incorrect |
-| 100 |  |  |  | Incorrect |
-| 101 |  |  |  | Incorrect |
-| 102 |  |  |  | Incorrect |
-| 103 |  |  |  | Incorrect |
-| 104 |  |  |  | Incorrect |
-| 105 |  |  |  | Incorrect |
-| 106 |  |  |  | Incorrect |
-| 107 |  |  |  | Incorrect |
-| 108 |  |  |  | Incorrect |
-| 109 |  |  |  | Incorrect |
-| 110 |  |  |  | Incorrect |
-| 111 |  |  |  | Incorrect |
-| 112 |  |  |  | Incorrect |
-| 113 |  |  |  | Incorrect |
-| 114 |  |  |  | Incorrect |
-| 115 |  |  |  | Incorrect |
-| 116 |  |  |  | Incorrect |
-| 117 |  |  |  | Incorrect |
-| 118 |  |  |  | Incorrect |
-| 119 |  |  |  | Incorrect |
-| 120 |  |  |  | Incorrect |
-| 121 |  |  |  | Incorrect |
-| 122 |  |  |  | Incorrect |
-| 123 |  |  |  | Incorrect |
-| 124 |  |  |  | Incorrect |
-| 125 |  |  |  | Incorrect |
-| 126 |  |  |  | Incorrect |
-| 127 |  |  |  | Incorrect |
-| 128 |  |  |  | Incorrect |
-| 129 |  |  |  | Incorrect |
-| 130 |  |  |  | Incorrect |
-| 131 |  |  |  | Incorrect |
-| 132 |  |  |  | Incorrect |
-| 133 |  |  |  | Incorrect |
-| 134 |  |  |  | Incorrect |
-| 135 |  |  |  | Incorrect |
-| 136 |  |  |  | Incorrect |
-| 137 |  |  |  | Incorrect |
-| 138 |  |  |  | Incorrect |
-| 139 |  |  |  | Incorrect |
-| 140 |  |  |  | Incorrect |
-| 141 |  |  |  | Incorrect |
-| 142 |  |  |  | Incorrect |
-| 143 |  |  |  | Incorrect |
-| 144 |  |  |  | Incorrect |
-| 145 |  |  |  | Incorrect |
-| 146 |  |  |  | Incorrect |
-| 147 |  |  |  | Incorrect |
-| 148 |  |  |  | Incorrect |
-| 149 |  |  |  | Incorrect |
+| 94 | Closure | 1 | Nopol2017 | Incorrect |
+| 95 | Closure | 2 | Nopol2017 | Incorrect |
+| 96 | Closure | 3 | Nopol2017 | Incorrect |
+| 97 | Closure | 5 | Nopol2017 | Incorrect |
+| 98 | Closure | 7 | Nopol2017 | Incorrect |
+| 99 | Closure | 8 | Nopol2017 | Incorrect |
+| 100 | Closure | 10 | Nopol2017 | Incorrect |
+| 101 | Closure | 12 | Nopol2017 | Incorrect |
+| 102 | Closure | 14 | Nopol2017 | Incorrect |
+| 103 | Closure | 15 | Nopol2017 | Incorrect |
+| 104 | Closure | 16 | Nopol2017 | Incorrect |
+| 105 | Closure | 17 | Nopol2017 | Incorrect |
+| 106 | Closure | 18 | Nopol2017 | Incorrect |
+| 107 | Closure | 20 | Nopol2017 | Incorrect |
+| 108 | Closure | 21 | Nopol2017 | Incorrect |
+| 109 | Closure | 22 | Nopol2017 | Incorrect |
+| 110 | Closure | 26 | Nopol2017 | Incorrect |
+| 111 | Closure | 28 | Nopol2017 | Incorrect |
+| 112 | Closure | 29 | Nopol2017 | Incorrect |
+| 113 | Closure | 30 | Nopol2017 | Incorrect |
+| 114 | Closure | 31 | Nopol2017 | Incorrect |
+| 115 | Closure | 33 | Nopol2017 | Incorrect |
+| 116 | Closure | 35 | Nopol2017 | Incorrect |
+| 117 | Closure | 36 | Nopol2017 | Incorrect |
+| 118 | Closure | 38 | Nopol2017 | Incorrect |
+| 119 | Closure | 40 | Nopol2017 | Incorrect |
+| 120 | Closure | 45 | Nopol2017 | Incorrect |
+| 121 | Closure | 49 | Nopol2017 | Incorrect |
+| 122 | Closure | 50 | Nopol2017 | Incorrect |
+| 123 | Closure | 55 | Nopol2017 | Incorrect |
+| 124 | Closure | 60 | Nopol2017 | Incorrect |
+| 125 | Closure | 61 | Nopol2017 | Incorrect |
+| 126 | Closure | 62 | Nopol2017 | Incorrect |
+| 127 | Closure | 63 | Nopol2017 | Incorrect |
+| 128 | Closure | 66 | Nopol2017 | Incorrect |
+| 129 | Closure | 67 | Nopol2017 | Incorrect |
+| 130 | Closure | 72 | Nopol2017 | Incorrect |
+| 131 | Closure | 75 | Nopol2017 | Incorrect |
+| 132 | Closure | 76 | Nopol2017 | Incorrect |
+| 133 | Closure | 78 | Nopol2017 | Correct |
+| 134 | Closure | 111 | Nopol2017 | Incorrect |
+| 135 | Closure | 113 | Nopol2017 | Incorrect |
+| 136 | Closure | 114 | Nopol2017 | Incorrect |
+| 137 | Closure | 115 | Nopol2017 | Incorrect |
+| 138 | Closure | 116 | Nopol2017 | Incorrect |
+| 139 | Closure | 119 | Nopol2017 | Incorrect |
+| 140 | Closure | 120 | Nopol2017 | Incorrect |
+| 141 | Closure | 121 | Nopol2017 | Incorrect |
+| 142 | Closure | 124 | Nopol2017 | Incorrect |
+| 143 | Closure | 126 | Nopol2017 | Correct |
+| 144 | Closure | 127 | Nopol2017 | Incorrect |
+| 145 | Closure | 129 | Nopol2017 | Incorrect |
+| 146 | Closure | 130 | Nopol2017 | Incorrect |
+| 147 | Closure | 131 | Nopol2017 | Incorrect |
+| 148 | Closure | 132 | Nopol2017 | Incorrect |
+| 149 | Closure | 133 | Nopol2017 | Incorrect |
 | 150 | Lang | 44 | Nopol2017 | Incorrect |
 | 151 | Lang | 51 | Nopol2017 | Incorrect |
 | 152 | Lang | 53 | Nopol2017 | Incorrect |
@@ -213,4 +213,4 @@ All of the patches in our dataset are in unified diff format.
 | 207 | Math | 93 | ACS | Correct |
 | 208 | Math | 97 | ACS | Incorrect |
 | 209 | Math | 99 | ACS | Correct |
-| 210 | Time | 15 | ACS | Correct |
+| 210 | Time | 15 | ACS | Correct | 
